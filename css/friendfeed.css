@@ -1,0 +1,8 @@
+.friendfeed.widget {
+  border: none !important;
+  margin-bottom: 1.5em !important;
+}
+
+.friendfeed.widget .info {
+  display: none;
+}

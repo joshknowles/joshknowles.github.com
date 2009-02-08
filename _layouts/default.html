@@ -1,0 +1,61 @@
+---
+extension:  html
+filter:     erb
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+     <title>{{ page.title }}</title>
+     <meta name="author" content="<%= author %>" />
+
+     <!--- Blueprint CSS Framework -->
+     <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection" />
+     <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print" />
+     <!--[if IE]>
+       <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection">
+     <![endif]-->
+
+     <!-- Site CSS -->
+     <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection" />
+
+     <!-- Friend Feed CSS -->
+    <link rel="stylesheet" href="/css/friendfeed.css" type="text/css" media="screen, projection" />
+
+     <!-- Feedburner -->
+     <link href="http://feeds.feedburner.com/joshknowles" rel="alternate" title="Josh Knowles" type="application/atom+xml" />
+
+     <!-- Open ID -->
+     <link rel="openid.server" href="http://www.myopenid.com/server" />
+     <link rel="openid.delegate" href="http://joshknowles.myopenid.com/" />
+     <meta http-equiv="X-XRDS-Location" content="http://joshknowles.myopenid.com/xrds" />
+
+     <!-- Google Verification -->
+     <meta name="verify-v1" content="BNNtV1SCM+e006cEvpDXZFR1NqZ6/3cZRDV3+SKlZzE=" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="header">
+      </div>
+
+      <div>
+        {{ content }}
+      </div>
+
+      <div id="footer">
+      </div>
+    </div>
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-1589222-1");
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>

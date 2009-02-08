@@ -1,0 +1,48 @@
+h1 {
+  font-size: 2.5em;
+}
+
+#projects dl {
+  margin-left: 18px;
+}
+
+#elsewhere ul {
+  list-style-type: none;
+  float: left;
+}
+
+#elsewhere li {
+  padding-left: 20px;
+}
+
+#elsewhere li.email {
+  background: url(/images/favicons/email.png) no-repeat;
+}
+
+#elsewhere li.facebook {
+  background: url(/images/favicons/facebook.png) no-repeat;
+}
+
+#elsewhere li.flickr {
+  background: url(/images/favicons/flickr.png) no-repeat;
+}
+
+#elsewhere li.github {
+  background: url(/images/favicons/github.png) no-repeat;
+}
+
+#elsewhere li.linkedin {
+  background: url(/images/favicons/linkedin.png) no-repeat;
+}
+
+#elsewhere li.twitter {
+  background: url(/images/favicons/twitter.png) no-repeat;
+}
+
+#elsewhere li.weplay {
+  background: url(/images/favicons/weplay.png) no-repeat;
+}
+
+#elsewhere li.workingwithrails {
+  background: url(/images/favicons/workingwithrails.png) no-repeat;
+}
